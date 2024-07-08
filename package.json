@@ -4,12 +4,15 @@
   "description": "Designing a Magical Arena.",
   "main": "index.js",
   "scripts": {
-    "test": "node src/run-tests.js",
+    "test": "mocha 'src/tests/**/*.test.js'",
     "start": "node src/index.js"
   },
   "keywords": [
     "swiggy"
   ],
   "author": "kartikmehta8",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
 }
