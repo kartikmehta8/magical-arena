@@ -1,0 +1,15 @@
+{
+  "name": "magical-arena",
+  "version": "1.0.0",
+  "description": "Designing a Magical Arena.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swiggy"
+  ],
+  "author": "kartikmehta8",
+  "license": "MIT"
+}
