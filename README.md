@@ -60,6 +60,29 @@ magical-arena/
 | `src/interfaces/IPlayer.js`     | Interface class for Player.                                                 |
 | `src/index.js`                  | Entry point of the application. Handles user input and starts the game.     |
 
+## How to Run the Code
+
+To run the "Magical Arena" project, follow these steps:
+
+1. **Download and extract the repository**:
+   - Download the zip file of the repository and extract it.
+   - Navigate to the extracted directory. (You already did!)
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the application**:
+   ```bash
+   npm start
+   ```
+
+3. **Run the tests**:
+   ```bash
+   npm test
+   ```
+
 ## Tests
 
 ### Integration Tests
