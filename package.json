@@ -4,7 +4,7 @@
   "description": "Designing a Magical Arena.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "node src/run-tests.js",
     "start": "node src/index.js"
   },
   "keywords": [
