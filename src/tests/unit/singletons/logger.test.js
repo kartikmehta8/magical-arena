@@ -1,5 +1,5 @@
 const assert = require("assert");
-const Logger = require("../../singletons/Logger");
+const Logger = require("../../../singletons/Logger");
 
 /**
  * Unit tests for the Logger singleton.
@@ -13,8 +13,8 @@ describe("Logger", function () {
    */
   it("should create a single instance of Logger", function () {
     // Require Logger instance twice
-    const logger1 = require("../../../src/singletons/Logger");
-    const logger2 = require("../../../src/singletons/Logger");
+    const logger1 = require("../../../singletons/Logger");
+    const logger2 = require("../../../singletons/Logger");
 
     // Assert that both instances are strictly equal, confirming singleton behavior
     assert.strictEqual(logger1, logger2);
