@@ -1,8 +1,10 @@
+const IPlayer = require("../interfaces/IPlayer");
+
 /**
  * Represents a player in a game with attributes such as name, health, strength, and attack.
  * Provides methods to interact with the player's state.
  */
-class Player {
+class Player extends IPlayer {
   /**
    * Creates a new player with the specified attributes.
    * @param {string} name - The name of the player.
@@ -14,10 +16,7 @@ class Player {
    * const player = new Player('John', 100, 10, 20);
    */
   constructor(name, health, strength, attack) {
-    this.name = name;
-    this.health = health;
-    this.strength = strength;
-    this.attack = attack;
+    super(name, health, strength, attack);
   }
 
   /**
